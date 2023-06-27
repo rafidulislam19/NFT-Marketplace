@@ -1,5 +1,4 @@
 
-
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 h-28 mb-5 border-b border-b-slate-700">
@@ -26,7 +25,7 @@ const Navbar = () => {
           <a className="text-lg">Resource</a>
         </li>
       <li><a className=" text-lg mr-3">About</a></li>
-      <li><input type="text" placeholder="Search" className="input input-bordered input-primary w-full max-w-xs rounded-full pl-6" /></li>
+      <li><input type="text" placeholder="Search" className="input input-bordered input-primary w-full max-w-xs rounded-full pl-6"/></li>
     </ul>
   </div>
   
