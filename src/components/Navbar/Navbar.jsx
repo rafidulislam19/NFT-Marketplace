@@ -16,7 +16,7 @@ const Navbar = () => {
         <li><input type="text" placeholder="Search" className="input input-bordered input-primary w-full max-w-xs mt-2 rounded-full pl-6" /></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-[#3D00B7] text-3xl font-bold">NFTERS</a>
+    <a className="btn btn-ghost normal-case text-[#3D00B7] text-2xl md:text-3xl font-bold">NFTERS</a>
   </div>
   <div className="navbar-center hidden lg:flex ">
     <ul className="menu menu-horizontal px-1">

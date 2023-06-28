@@ -1,11 +1,12 @@
 import img from "../../../public/images/man.jpg"
 import img1 from "../../../public/images/image1.png"
 import img2 from "../../../public/images/image2.png"
+import img3 from "../../../public/images/image3.png"
 
 const Explore = () => {
     return (
         <div className="my-20 mx-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <div className="space-y-6">
                     <h2 className="text-5xl font-extrabold">DISCOVER, AND COLLECT DIGITAL ART NFTS</h2>
                     <p className="text-xl">Digital marketplace for crypto collectibles and <br /> non-fungible tokens (NFTs). Buy, Sell, and discover <br /> exclusive digital assets.</p>
@@ -25,8 +26,8 @@ const Explore = () => {
                         </div>
                     </div>
                 </div>
-              <div className="relative">
-              <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl p-8 text-white w-3/4 ">
+              <div className="relative pl-8">
+              <div className="bg-[url('../../../public/images/image3.png')] bg-cover rounded-3xl p-8 text-white w-3/4 ">
                    <div>
                    <h2 className="text-xl mb-4 font-medium">Abstr Gradient NFT</h2>
                     <div className="flex items-center">
@@ -47,8 +48,11 @@ const Explore = () => {
                    </div>
 
                 </div>
-                <div className="w-1/2 absolute right-28 top-10 -z-50 h-5/6 rounded-3xl">
-                       <img src={img1}  className="h-[350px]"/>
+                <div className="w-1/2 absolute right-16 lg:right-24 top-6 -z-50 rounded-3xl">
+                       <img src={img1}  className="h-[375px]"/>
+                </div>
+                <div className="w-1/2 absolute right-8 lg:right-14 top-11 -z-100 rounded-3xl">
+                       <img src={img2}  className="h-[335px]"/>
                 </div>
               </div>
             </div>
