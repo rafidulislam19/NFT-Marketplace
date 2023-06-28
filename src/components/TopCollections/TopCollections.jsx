@@ -7,7 +7,7 @@ import { FaEthereum } from 'react-icons/fa';
 
 const TopCollections = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-6 xl:mx-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-6 xl:mx-0 my-8 lg:my-20">
 
             {/* highest bid */}
            <div>
@@ -27,7 +27,45 @@ const TopCollections = () => {
                 </div>
             </div>
            
-            <div></div>
+           {/* bid placing section */}
+            <div className="space-y-5">
+                <div className="grid grid-cols-2 gap-5">
+                    <img className="h-36 w-full" src={img2} alt="" />
+                    <div className="space-y-2">
+                        <h3 className="font-bold">The Futr Abstr</h3>
+                        <div className="flex justify-between items-center">
+                        <img className="w-8 h-8 rounded-full" src={man} alt="" />
+                        <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
+                        <p className="text-sm">1 of 8</p>
+                        </div>
+                        <button className="btn btn-primary rounded-full px-6 py-4 text-white">Place a bid</button>
+                    </div>
+                </div>
+                <div className="grid grid-cols-2 gap-5">
+                    <img className="h-36 w-full" src={img3} alt="" />
+                    <div className="space-y-2">
+                        <h3 className="font-bold">The Futr Abstr</h3>
+                        <div className="flex justify-between items-center">
+                        <img className="w-8 h-8 rounded-full" src={man} alt="" />
+                        <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
+                        <p className="text-sm">1 of 8</p>
+                        </div>
+                        <button className="btn btn-outline btn-primary rounded-full px-6 py-4 text-white">Place a bid</button>
+                    </div>
+                </div>
+                <div className="grid grid-cols-2 gap-5">
+                    <img className="h-36 w-full" src={img4} alt="" />
+                    <div className="space-y-2">
+                        <h3 className="font-bold">The Futr Abstr</h3>
+                        <div className="flex justify-between items-center">
+                        <img className="w-8 h-8 rounded-full" src={man} alt="" />
+                        <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
+                        <p className="text-sm">1 of 8</p>
+                        </div>
+                        <button className="btn btn-outline btn-primary rounded-full px-6 py-4 text-white">Place a bid</button>
+                    </div>
+                </div>
+            </div>
             <div></div>
         </div>
     );
