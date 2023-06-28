@@ -1,11 +1,11 @@
-import img from "../../../public/images/man.jpg"
-import img1 from "../../../public/images/image1.png"
-import img2 from "../../../public/images/image2.png"
-import img3 from "../../../public/images/image3.png"
+import img from "../../../public/images/man.jpg";
+import img1 from "../../../public/images/explore/image1.png"
+import img2 from "../../../public/images/explore/image2.png"
+import { FaEthereum } from 'react-icons/fa';
 
 const Explore = () => {
     return (
-        <div className="my-20 mx-8">
+        <div className="my-8 lg:my-20 mx-6 xl:mx-0">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
                 {/* left part of explore section */}
@@ -31,7 +31,7 @@ const Explore = () => {
 
                 {/* right part of explore section */}
               <div className="relative pl-8">
-              <div className="bg-[url('../../../public/images/image3.png')] bg-cover rounded-3xl p-8 text-white w-3/4 ">
+              <div className="bg-[url('../../../public/images/explore/image3.png')] bg-cover rounded-3xl p-8 text-white w-3/4 ">
                    <div className="text-white font-medium">
                    <h2 className="text-xl mb-4 ">Abstr Gradient NFT</h2>
                     <div className="flex items-center">
@@ -44,7 +44,7 @@ const Explore = () => {
                    <div className="flex justify-between p-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-xl mt-48 font-semibold">
                     <div>
                         <p>Current Bid</p>
-                        <h3>0.25 ETH</h3>
+                        <div className="flex items-center"><FaEthereum className="mr-2"/> <span>0.25 ETH</span></div>
                     </div>
                     <div>
                         <p>Ends in</p>

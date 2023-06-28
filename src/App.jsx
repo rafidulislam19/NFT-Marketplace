@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Explore from './components/Explore/Explore'
 import Transaction from './components/Transaction/Transaction'
+import TopCollections from './components/TopCollections/TopCollections'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Navbar></Navbar>
     <Explore></Explore>
     <Transaction></Transaction>
+    <TopCollections></TopCollections>
     </>
   )
 }
