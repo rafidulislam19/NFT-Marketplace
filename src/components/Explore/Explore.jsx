@@ -10,7 +10,7 @@ const Explore = () => {
 
                 {/* left part of explore section */}
                 <div className="space-y-6">
-                    <h2 className="text-5xl font-extrabold">DISCOVER, AND COLLECT DIGITAL ART NFTS</h2>
+                    <h2 className="text-5xl font-black">DISCOVER, AND COLLECT DIGITAL ART NFTS</h2>
                     <p className="text-xl">Digital marketplace for crypto collectibles and <br /> non-fungible tokens (NFTs). Buy, Sell, and discover <br /> exclusive digital assets.</p>
                     <button className="btn btn-primary rounded-full px-10 py-4 text-white">Explore Now</button>
                     <div className="grid grid-cols-3">

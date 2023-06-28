@@ -5,7 +5,7 @@ const Transaction = () => {
     return (
         <div className="my-10 lg:my-28 mx-6 xl:mx-0 px-10 py-24 bg-slate-100 rounded-lg grid grid-cols-1 md:grid-cols-3 gap-4">
             
-            <h2 className="font-bold text-3xl">THE AMAZING NFT ART <br /> OF THE WORLD HERE</h2>
+            <h2 className="font-black text-3xl">THE AMAZING NFT ART <br /> OF THE WORLD HERE</h2>
             
             <div>
                 <div className='flex items-center'>
