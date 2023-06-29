@@ -8,7 +8,7 @@ import img7 from "../../../public/images/topCollections/image7.png"
 import img8 from "../../../public/images/topCollections/image8.png"
 import img9 from "../../../public/images/topCollections/image9.png"
 import verify from "../../../public/images/topCollections/verify.png"
-import man from "../../../public/images/man.jpg"
+import man from "../../../public/images/man.png"
 import { FaEthereum } from 'react-icons/fa';
 
 const TopCollections = () => {
@@ -56,7 +56,7 @@ const TopCollections = () => {
                         <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
                         <p className="text-sm">1 of 8</p>
                         </div>
-                        <button className="btn btn-outline btn-primary rounded-full px-6 py-4 text-white">Place a bid</button>
+                        <button className="btn btn-outline btn-primary rounded-full px-6 py-4">Place a bid</button>
                     </div>
                 </div>
                 <div className="grid grid-cols-2 gap-5">
@@ -68,7 +68,7 @@ const TopCollections = () => {
                         <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
                         <p className="text-sm">1 of 8</p>
                         </div>
-                        <button className="btn btn-outline btn-primary rounded-full px-6 py-4 text-white">Place a bid</button>
+                        <button className="btn btn-outline btn-primary rounded-full px-6 py-4">Place a bid</button>
                     </div>
                 </div>
             </div>

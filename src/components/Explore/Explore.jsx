@@ -1,4 +1,4 @@
-import img from "../../../public/images/man.jpg";
+import img from "../../../public/images/man.png";
 import img1 from "../../../public/images/explore/image1.png"
 import img2 from "../../../public/images/explore/image2.png"
 import { FaEthereum } from 'react-icons/fa';
