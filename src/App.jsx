@@ -6,6 +6,7 @@ import Transaction from './components/Transaction/Transaction'
 import TopCollections from './components/TopCollections/TopCollections'
 import FeaturedCollections from './components/FeaturedCollections/FeaturedCollections'
 import CreateAndSell from './components/CreateAndSell/CreateAndSell'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <TopCollections></TopCollections>
     <FeaturedCollections></FeaturedCollections>
     <CreateAndSell></CreateAndSell>
+    <Footer></Footer>
     </>
   )
 }

@@ -15,7 +15,7 @@ const Navbar = () => {
           <a className="font-semibold">Resource</a>
         </li>
         <li><a className="font-semibold">About</a></li>
-        <li><input type="text" placeholder="Search" className="input input-bordered utline outline-1 outline-slate-500 w-full max-w-xs mt-2 rounded-full pl-6" /></li>
+        <li><input type="text" placeholder="Search" className="input input-bordered outline outline-1 outline-slate-500 w-full max-w-xs mt-2 rounded-full pl-6" /></li>
       </ul>
     </div>
 
