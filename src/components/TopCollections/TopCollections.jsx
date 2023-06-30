@@ -41,8 +41,8 @@ const TopCollections = () => {
                         <h3 className="font-bold">The Futr Abstr</h3>
                         <div className="flex justify-between items-center">
                         <img className="w-8 h-8 rounded-full" src={man} alt="" />
-                        <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
-                        <p className="text-sm">1 of 8</p>
+                        <button className="btn btn-outline btn-success btn-sm px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
+                        <p className="text-xs sm:text-sm">1 of 8</p>
                         </div>
                         <button className="btn btn-primary rounded-full px-6 py-4 text-white">Place a bid</button>
                     </div>
@@ -53,8 +53,8 @@ const TopCollections = () => {
                         <h3 className="font-bold">The Futr Abstr</h3>
                         <div className="flex justify-between items-center">
                         <img className="w-8 h-8 rounded-full" src={man} alt="" />
-                        <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
-                        <p className="text-sm">1 of 8</p>
+                        <button className="btn btn-outline btn-sm btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
+                        <p className="text-xs sm:text-sm">1 of 8</p>
                         </div>
                         <button className="btn btn-outline btn-primary rounded-full px-6 py-4">Place a bid</button>
                     </div>
@@ -65,8 +65,8 @@ const TopCollections = () => {
                         <h3 className="font-bold">The Futr Abstr</h3>
                         <div className="flex justify-between items-center">
                         <img className="w-8 h-8 rounded-full" src={man} alt="" />
-                        <button className="btn btn-outline btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
-                        <p className="text-sm">1 of 8</p>
+                        <button className="btn btn-outline btn-sm btn-success px-2 py-1"><FaEthereum/> <span className="text-xs">0.25 ETH</span></button>
+                        <p className="text-xs sm:text-sm">1 of 8</p>
                         </div>
                         <button className="btn btn-outline btn-primary rounded-full px-6 py-4">Place a bid</button>
                     </div>

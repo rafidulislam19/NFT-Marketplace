@@ -17,7 +17,7 @@ const FeaturedCollections = () => {
                 {/* left collection */}
                 <div>
                 <div className="flex items-center mb-6"> 
-                    <img className="h-64 w-full mr-2" src={img1} alt="" />
+                    <img className="h-64 w-2/3 mr-2" src={img1} alt="" />
                     <div className="space-y-2">
                         <img className="w-full h-20" src={img2} alt="" />
                         <img className="w-full h-20" src={img3} alt="" />
@@ -37,7 +37,7 @@ const FeaturedCollections = () => {
                 {/* middle part */}
                 <div>
                 <div className="flex items-center mb-6"> 
-                    <img className="h-64 w-full mr-2" src={img5} alt="" />
+                    <img className="h-64 w-2/3 mr-2" src={img5} alt="" />
                     <div className="space-y-2">
                         <img className="w-full h-20" src={img3} alt="" />
                         <img className="w-full h-20" src={img2} alt="" />
@@ -57,7 +57,7 @@ const FeaturedCollections = () => {
                 {/* right part */}
                 <div>
                 <div className="flex items-center mb-6"> 
-                    <img className="h-64 w-full mr-2" src={img7} alt="" />
+                    <img className="h-64 w-2/3 mr-2" src={img7} alt="" />
                     <div className="space-y-2">
                         <img className="w-full h-20" src={img8} alt="" />
                         <img className="w-full h-20" src={img9} alt="" />

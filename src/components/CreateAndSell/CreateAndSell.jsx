@@ -13,17 +13,17 @@ const CreateAndSell = () => {
                 <div className="flex "> 
                     <div className="mr-10 lg:mr-16 space-y-8 relative">
                         <div>
-                        <img className="h-64 w-full" src={img1} alt="" />
-                        <img className="h-14 w-14 absolute left-40 sm:left-48 top-56 sm:top-56" src={man} alt="" />
+                        <img className="h-52 sm:h-64 w-full" src={img1} alt="" />
+                        <img className="h-10 w-10 sm:h-14 sm:w-14 absolute left-28 sm:left-48 top-48 sm:top-56" src={man} alt="" />
                         </div>
                         <div className="w-2/3 float-right relative">
-                            <img className="h-48 w-full" src={img3} alt="" />
-                            <img className="h-14 w-14 absolute left-28 sm:left-32 top-40" src={woman} alt="" />
+                            <img className="h-32 sm:h-48 w-full" src={img3} alt="" />
+                            <img className="h-10 w-10 sm:h-14 sm:w-14 absolute left-16 sm:left-32 top-28 sm:top-40" src={woman} alt="" />
                         </div>
                     </div>
                     <div className="mt-32 relative">
-                        <img className="h-60 w-full" src={img2} alt="" />
-                        <img className="h-14 w-14 absolute left-40 sm:left-44 top-48 sm:top-52" src={woman} alt="" />
+                        <img className="h-52 sm:h-60 w-full" src={img2} alt="" />
+                        <img className="h-10 w-10 sm:h-14 sm:w-14 absolute left-28 sm:left-44 top-48 sm:top-52" src={woman} alt="" />
                     </div>
                 </div>
 

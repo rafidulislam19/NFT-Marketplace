@@ -2,9 +2,9 @@
 
 const Footer = () => {
     return (
-    <footer className="footer p-14 lg:p-28 bg-base-200 text-base-content my-10">
+    <footer className="footer mt-10 lg:mt-28 p-10 md:p-14 lg:p-28 bg-base-200 text-base-content rounded-lg">
   <div className="space-y-3">
-    <h3 className="font-black text-2xl">NFTERS </h3>
+    <h3 className="font-black text-2xl">NFTERS</h3>
     <p className="text-sm text-[#565656]">The worlds first and largest digital marketplace for <br /> crypto collectibles and non-fungible tokens (NFTs). <br /> Buy, sell, and discover exclusive digital items.</p>
     <div className="grid grid-flow-col gap-4">
     <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>

@@ -20,7 +20,7 @@ const Navbar = () => {
     </div>
 
     {/* logo */}
-    <a className="btn btn-ghost normal-case text-[#3D00B7] text-2xl md:text-3xl font-bold">NFTERS</a>
+    <a className="btn btn-ghost normal-case text-[#3D00B7] text-xs sm:text-3xl font-bold">NFTERS</a>
   </div>
 
   {/* navbar elements */}
@@ -37,8 +37,8 @@ const Navbar = () => {
   
   {/* navbar buttons */}
   <div className="navbar-end">
-     <button className="btn btn-primary rounded-full px-8 mr-3 text-white">Upload</button>
-     <button className="btn btn-outline btn-primary rounded-full">Connect Wallet</button>
+     <button className="btn btn-primary rounded-full btn-sm sm:btn-md mr-2 text-xs text-white">Upload</button>
+     <button className="btn btn-outline btn-primary rounded-full btn-sm sm:btn-md text-xs">Connect Wallet</button>
   </div>
 </div>
     );
