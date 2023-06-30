@@ -1,7 +1,7 @@
 import man from "../../../public/images/man.png";
 import woman from "../../../public/images/woman.png";
-import img1 from "../../../public/images/explore/image3.png"
-import img2 from "../../../public/images/explore/image1.png"
+import img1 from "../../../public/images/explore/image1.png"
+import img2 from "../../../public/images/explore/image2.png"
 import img3 from "../../../public/images/createAndSell/img.png"
 
 const CreateAndSell = () => {
@@ -30,7 +30,7 @@ const CreateAndSell = () => {
                 {/* details */}
                 <div className="space-y-10 mt-14 lg:mt-24">
                     <h2 className="text-3xl font-black">CREATE AND <br /> SELL YOUR NFTS</h2>
-                    <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus.</p>
+                    <p className="text-sm text-[#636363">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus.</p>
                     <button className="btn btn-primary rounded-full px-10 py-4 text-white">Sign Up Now</button>
 
                 </div>

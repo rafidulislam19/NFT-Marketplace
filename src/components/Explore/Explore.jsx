@@ -1,6 +1,6 @@
 import img from "../../../public/images/man.png";
-import img1 from "../../../public/images/explore/image1.png"
-import img2 from "../../../public/images/explore/image2.png"
+import img1 from "../../../public/images/explore/image2.png"
+import img2 from "../../../public/images/explore/image3.png"
 import { FaEthereum } from 'react-icons/fa';
 
 const Explore = () => {
@@ -31,7 +31,8 @@ const Explore = () => {
 
                 {/* right part of explore section */}
               <div className="relative pl-8">
-              <div className="bg-[url('../../../public/images/explore/image3.png')] bg-cover rounded-3xl p-8 text-white w-3/4 ">
+                {/* first picture */}
+              <div className="bg-[url('../../../public/images/explore/image1.png')] bg-cover rounded-3xl p-8 text-white w-3/4 ">
                    <div className="text-white font-medium">
                    <h2 className="text-xl mb-4 ">Abstr Gradient NFT</h2>
                     <div className="flex items-center">
@@ -53,9 +54,11 @@ const Explore = () => {
                    </div>
 
                 </div>
+                {/* 2nd picture */}
                 <div className="w-1/2 absolute right-16 lg:right-24 top-6 -z-50 rounded-3xl">
                        <img src={img1}  className="h-[375px]"/>
                 </div>
+                {/* 3rd picture */}
                 <div className="w-1/2 absolute right-8 lg:right-14 top-11 -z-100 rounded-3xl">
                        <img src={img2}  className="h-[335px]"/>
                 </div>
